@@ -1,0 +1,82 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #72a6df;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+.header-title {
+    font-weight: bold;
+}
+.header-phone a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.header-phone a:hover {
+    text-decoration: underline;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.content {
+    padding: 20px;
+    text-align: center;
+}
+.content h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #007BFF;
+}
+.content p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+.number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007BFF;
+    margin: 10px 0;
+}
+footer {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.phone-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.phone-section div {
+    background-color: hsl(197, 29%, 66%);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
