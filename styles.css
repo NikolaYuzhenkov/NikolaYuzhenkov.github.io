@@ -35,7 +35,7 @@ header {
     text-decoration: underline;
 }
 
-/* Стили кнопки */
+/* Стили кнопки */ /* Стили кнопки */
 .custom-button {
     background-color: #002F5D; /* Темно-синий цвет кнопки */
     color: white; /* Белый текст */
@@ -48,6 +48,7 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+/* Стили кнопки */
 
 .custom-button:hover {
     transform: translateY(-2px); /* Легкое поднятие при наведении */
