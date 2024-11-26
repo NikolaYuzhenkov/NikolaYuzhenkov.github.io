@@ -1,15 +1,17 @@
-/* styles.css */
+/* Общие стили */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
     color: #333;
 }
 
+/* Стили хедера */
 header {
     display: flex;
     justify-content: space-between;
@@ -19,21 +21,45 @@ header {
     padding: 20px;
     font-size: 24px;
 }
-.header-title {
-    font-weight: bold;
+
+.header-phone {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
-.header-phone a {
+
+.header-phone .phone-number {
+    display: none; /* Скрыть номер телефона по умолчанию */
     color: white;
-    text-decoration: none;
     font-size: 18px;
-    font-weight: bold;
-}
-.header-phone a:hover {
     text-decoration: underline;
 }
 
+/* Стили кнопки */
+.custom-button {
+    background-color: #002F5D; /* Темно-синий цвет кнопки */
+    color: white; /* Белый текст */
+    border: none;
+    border-radius: 5px; /* Скругленные края */
+    padding: 10px 20px; /* Отступы */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
+.custom-button:hover {
+    transform: translateY(-2px); /* Легкое поднятие при наведении */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Изменение тени при наведении */
+}
 
+.custom-button:active {
+    transform: translateY(1px); /* Легкое нажатие */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Изменение тени при нажатии */
+}
+
+/* Остальные стили остаются прежними */
 .container {
     max-width: 800px;
     margin: 30px auto;
@@ -42,25 +68,23 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
+
 .content {
     padding: 20px;
     text-align: center;
 }
+
 .content h1 {
     margin-bottom: 10px;
     font-size: 28px;
     color: #007BFF;
 }
+
 .content p {
     margin: 5px 0;
     font-size: 16px;
 }
-.number {
-    font-size: 18px;
-    font-weight: bold;
-    color: #007BFF;
-    margin: 10px 0;
-}
+
 footer {
     background-color: #f1f1f1;
     color: #333;
@@ -68,13 +92,15 @@ footer {
     padding: 10px 0;
     font-size: 14px;
 }
+
 .phone-section {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
 }
+
 .phone-section div {
-    background-color: hsl(197, 29%, 66%);
+    background-color: #72a6df;
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
