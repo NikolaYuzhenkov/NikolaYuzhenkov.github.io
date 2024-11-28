@@ -6,13 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>My Website</title>
     <link rel="stylesheet" href="styles.css"> <!-- Подключение CSS -->
-    <script type="text/javascript">
+    <!-- Ringostat script  -->
+    <script type="text/javascript"> 
         (function (d,s,u,e,p) {
           p=d.getElementsByTagName(s)[0],e=d.createElement(s),e.async=1,e.src=u,p.parentNode.insertBefore(e, p);
         })(document, 'script', 'https://script.ringostat.com/v4/eb/ebb7164d240b5800652b5acb17423dbdbdac1927.js');
         var pw = function() {if (typeof(ringostatAnalytics) === "undefined") {setTimeout(pw,100);} else {ringostatAnalytics.sendHit('pageview');}};
         pw(); 
     </script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K3FJCPTMC9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K3FJCPTMC9');
+</script>
     
 </head>
 <body>
